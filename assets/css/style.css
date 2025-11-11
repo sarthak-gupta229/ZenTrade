@@ -72,7 +72,7 @@ a{
 body{
     padding-top:110px;
     /* background-color: #99a5b1; */
-    background-color: #00253d;
+    background-color: #99a5b1;
     
 }
 #content {
@@ -411,6 +411,7 @@ svg{
     border:0;
     cursor: pointer;
     transition: all;
+    background-color: white;
 }
 #l4b4-b1:hover{
     transform:scale(1.1);

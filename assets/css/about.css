@@ -67,7 +67,7 @@ a{
 body{
     padding-top:110px;
     background-color: #99a5b1;
-    
+    width: 100vw;
 }
 #content {
   padding: 1vw;
@@ -112,7 +112,7 @@ body{
     flex-wrap:wrap;
     position: relative;
     color: #000;
-    background-color: white;
+    background-color: #ccd2d8;
 }
 #footerh1{
     display:inline-block;
@@ -146,25 +146,52 @@ body{
     margin: 0 auto;
 }
 #foot{
-    background-color: white;
+    background-color: #ccd2d8;
+}
+#section1{
+    background: linear-gradient(135deg, #001f3f, #004f5f, #007b7f);
+    min-height:fit-content;
+    margin-top: -35px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2rem;
+    
+}
+#world_img{
+    height:35rem;
+    width:40rem;
+    border-radius: 20px;
+}
+#About_ZenTrade{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    width:60vw;
+    height: fit-content;
+
 }
 #p2l1b1{
+    display: flex;
     height:fit-content;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align:center;
     align-items: center;
     padding:2rem;
+   
+    
 }
 #b1h1{
     font-size: 3rem;
    
     padding:2rem;
     font-family: sans-serif;
-    color: #001f3d;
+    color:#000;
 
 }
 #b1h2{
-    color: rgb(8, 152, 0);
+    color: green;
     
 }
 #p2l2B2{
@@ -193,8 +220,10 @@ body{
 }
 #our-mission{
     margin-bottom:1rem;
+
 }
 #section2{
+    /* width: 100vw; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -202,7 +231,7 @@ body{
     padding:3rem;
     
 }
-#p2l2b2{
+#Empowering{
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -214,5 +243,40 @@ body{
 
 }
 #section3{
-    background-color: azure;
+    background-color:#00253d;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:3rem;
+}
+#our_Values{
+    color: white;
+    text-align: center;
+    height:fit-content;
+    width:500px;
+    /* border: 1px solid white; */
+    margin-bottom: 2rem;
+}
+#our_Values h1{
+    font-size: 3rem;
+}
+.value_boxes{
+    color: white;
+    text-align:left;
+    height: fit-content;
+    width:15rem;
+  
+}
+#our_values_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content:space-evenly;
+
+}
+.value_boxes h1{
+    margin-bottom: 1rem;
 }
