@@ -111,7 +111,7 @@ a{
     text-align: center;
     color: gray;
 }
-#footer{
+#footer1{
     display:flex;
     justify-content:center;
     text-align: center;
@@ -240,7 +240,7 @@ a{
     border:1px solid gray ;
     border-radius:7px;
     background-color:white;
-    transition-property: all;
+    transition-property:background-color 0.3s ease;
     
 }
 #Explore_Products-hp:hover{
@@ -488,6 +488,9 @@ svg{
 
 #section4{
     height: fit-content;
+}
+#l3b3{
+    background-color:whitesmoke;
 }
 
 

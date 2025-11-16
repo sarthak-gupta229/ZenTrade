@@ -14,9 +14,7 @@
           <ul id="pageslink">
             <li class="navpages"><a class="hovereffect" href="index.html">Home</a></li>
             <li class="navpages"><a class="hovereffect" href="about.html">About</a></li>
-            <li class="navpages">
-              <a class="hovereffect" href="services.html">Services</a>
-            </li>
+            <li class="navpages"><a class="hovereffect" href="services.html">Services</a></li>
             <li class="navpages"><a class="hovereffect" href="">Pricing</a></li>
             <li class="navpages"><a class="hovereffect" href="">Support</a></li>
           </ul>
@@ -24,78 +22,103 @@
 
         <div id="button">
           <a href="login.html"><button class="navthings" id="Login">login</button></a>
-          <button class="navthings" id="Sign_Up"><a style="color: white;" href="login.html">Sign Up</a></button>
+          <a style="color: white;" href="login.html"><button class="navthings" id="Sign_Up">Sign Up</button></a>
         </div>
       </div>
     </header>
-    <section id="section1">
-      <div id="p2l1b1">
-        <div id="About_ZenTrade">
-        <h1 id="b1h1">About ZenTrade</h1>
-        <h1 id="b1h2">We're on a mission to democratize finance and make investing accessible to everyone.</h1>
+
+    <main id="content">
+      <section id="section1" class="hero">
+        <div class="hero-inner">
+          <div id="About_ZenTrade" class="hero-text">
+            <h1 id="b1h1">About ZenTrade</h1>
+            <p id="b1h2">We're on a mission to democratize finance and make investing accessible to everyone.</p>
+            <p class="hero-cta">Trusted by thousands — we make investing clear, fair and simple.</p>
+            <div class="hero-buttons">
+              <a class="btn primary" href="signup.html">Get Started</a>
+              <a class="btn ghost" href="services.html">Explore Services</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img id="world_img" src="assets/images/icons/WORLD.png" alt="world illustration" />
+          </div>
         </div>
-        <div>
-         <!-- <img id="world_img" src="assets/images/icons/WORLD.png" alt="worldpic"> -->
+      </section>
+
+      
+      <section id="p2l2B2" class="cards-grid">
+        <article class="p2l2b1" id="our-mission" aria-labelledby="mission-title">
+          <div class="icon" aria-hidden="true">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="#03c3a9"><path d="M220-520 80-600v-160l140-80 140 80v160l-140 80Zm0-92 60-34v-68l-60-34-60 34v68l60 34Zm440 123v-93l140 82v280L560-80 320-220v-280l140-82v93l-60 35v188l160 93 160-93v-188l-60-35Zm-140 89v-480h360l-80 120 80 120H600v240h-80Zm40 69ZM220-680Z"/></svg>
+          </div>
+          <h3 id="mission-title">Our Mission</h3>
+          <p>To empower individuals with the tools and knowledge they need to take control of their financial future — removing high fees and complexity.</p>
+        </article>
+
+        <article class="p2l2b1" id="our-vision" aria-labelledby="vision-title">
+          <div class="icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="#03c3a9"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/></svg>
+          </div>
+          <h3 id="vision-title">Our Vision</h3>
+          <p>To create a future where financial freedom is accessible to all through transparent technology and education.</p>
+        </article>
+
+        <article class="p2l2b1" id="our-values" aria-labelledby="values-title">
+          <div class="icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 -960 960 960" width="36" fill="#03c3a9"><path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z"/></svg>
+          </div>
+          <h3 id="values-title">Why we exist</h3>
+          <p>We remove friction so people focus on what matters — building wealth with confidence and clarity.</p>
+        </article>
+      </section>
+
+      
+      <section id="section2" class="empower">
+        <div id="Empowering">
+          <h2>Empowering Every Investor</h2>
+          <p>At ZenTrade, we believe investing shouldn’t be complicated or intimidating. Founded in 2024, our mission has always been to make wealth creation simple, transparent, and within everyone’s reach.</p>
+          <p>Today, ZenTrade continues to redefine modern investing — with real-time insights, zero hidden charges, and technology built for you. Because at the end of the day, your growth is our goal.</p>
         </div>
-      </div>
-    </section >
-      <div id="p2l2B2">
-        <div class="p2l2b1" id="our-mission">
-          <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3"><path d="M220-520 80-600v-160l140-80 140 80v160l-140 80Zm0-92 60-34v-68l-60-34-60 34v68l60 34Zm440 123v-93l140 82v280L560-80 320-220v-280l140-82v93l-60 35v188l160 93 160-93v-188l-60-35Zm-140 89v-480h360l-80 120 80 120H600v240h-80Zm40 69ZM220-680Z"/></svg>
-          <h2 >Our Mission</h2>
-          <p>To empower individuals with the tools and knowledge they need to take control of their financial future. We believe everyone deserves access to world-class investment platforms without the burden of high fees.</p>
-        </div>
-        <div class="p2l2b1">
-          <svg id="vision" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3"><path d="M480-320q75 0 127.5-52.5T660-500q0-75-52.5-127.5T480-680q-75 0-127.5 52.5T300-500q0 75 52.5 127.5T480-320Zm0-72q-45 0-76.5-31.5T372-500q0-45 31.5-76.5T480-608q45 0 76.5 31.5T588-500q0 45-31.5 76.5T480-392Zm0 192q-146 0-266-81.5T40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200Zm0-300Zm0 220q113 0 207.5-59.5T832-500q-50-101-144.5-160.5T480-720q-113 0-207.5 59.5T128-500q50 101 144.5 160.5T480-280Z"/>
-          </svg>
-          <h2>Our Vision</h2>
-          <p>To create a world where financial freedom is accessible to all. We envision a future where technology and transparency work together to level the playing field in the investment landscape.</p>
+      </section>
+
+      
+      <section id="section3" class="values-section">
+        <div id="our_Values">
+          <h2>Our Values</h2>
+          <p class="sub">Core principles that guide every decision we make</p>
         </div>
 
-      </div>
-    <section id="section2">
-      <div id="Empowering">
-        <h2>Empowering Every Investor</h2>
-        <p>At ZenTrade, we believe investing shouldn’t be complicated or intimidating. Founded in 2024, our mission has always been to make wealth creation simple, transparent, and within everyone’s reach.
-        What began as a vision to simplify investing has evolved into a trusted platform for thousands of users who value clarity, fairness, and innovation. We eliminated unnecessary fees, replaced jargon with simplicity, and built tools that help you make confident financial decisions.
+        <div id="our_values_content">
+          <div class="value_boxes" role="article">
+            <h4>No hidden fees</h4>
+            <p>Clear pricing — what you see is what you pay.</p>
+          </div>
 
-        Today, ZenTrade continues to redefine modern investing — with real-time insights, zero hidden charges, and technology built for you. Because at the end of the day, your growth is our goal.</p>
-      </div>
-    </section>
-    <section  id="section3">
-    <div id="our_Values">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113ZM120-240h480v-32q0-11-5.5-20T580-306q-54-27-109-40.5T360-360q-56 0-111 13.5T140-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T440-640q0-33-23.5-56.5T360-720q-33 0-56.5 23.5T280-640q0 33 23.5 56.5T360-560Zm0 320Zm0-400Z"/></svg>
-      <h1>Our Values</h1>
-    </div >
-    <div id="our_values_content">
+          <div class="value_boxes" role="article">
+            <h4>Simplicity</h4>
+            <p>Complex finance made simple. Anyone can invest with confidence.</p>
+          </div>
 
-      <div class="value_boxes" >
-        <h1>value_boxes</h1>
-        <p>No hidden fees, no surprises. We believe in complete openness.</p>
-      </div>
+          <div class="value_boxes" role="article">
+            <h4>Security</h4>
+            <p>Your trust is our priority: we use bank-grade security and continuous monitoring.</p>
+          </div>
+        </div>
+      </section>
 
-      <div class="value_boxes" >
-        <h1>Simplicity</h1>
-        <p>Complex finance made simple. Anyone can invest with confidence.</p>
-      </div>
+      
+      <section class="final-cta">
+        <div class="final-inner">
+          <h3>Ready to start?</h3>
+          <p>Join thousands of investors and build a balanced portfolio today.</p>
+          <a class="btn primary large" href="signup.html">Create an account</a>
+        </div>
+      </section>
+    </main>
 
-      <div class="value_boxes" >
-        <h1>Security</h1>
-        <p>Your trust is our priority. We use bank-grade security always.</p>
-      </div>
-
-    </div>
-    </section>
-
-    <section id="section4">
-      <div id="p2l3b3"></div>
-    </section >
-    <section>
-      <div id="p2l4b3"></div>
-    </section id="section5">
-
-
-    <footer id="foot">
+   <footer id="foot">
       <hr />
       <div id="footer1">
         <div id="footer_info">
@@ -127,7 +150,7 @@
           </ul>
         </div>
       </div>
-      <hr id="footer-line" />
+      <hr id="footer-line">
       <p id="trademark">© ZenTrade. All rights reserved.</p>
     </footer>
   </body>
