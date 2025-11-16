@@ -1,6 +1,12 @@
+body{
+     padding-top:110px;
+     background: linear-gradient(135deg, #001f3f, #004f5f, #007b7f);
+}
 * {
     padding:0;
     margin: 0;
+    box-sizing: border-box;
+    
 }
 .navbar{
     border:0.5px solid black;
@@ -34,11 +40,11 @@
 }
 .hovereffect:hover{
      color: #03c3a9;
-     transform: scale(1.2);
+     transform: scale(1.1);
       
 }
 a{
-    color:grey;
+    color:#001f3d;
     text-decoration: none;
 }
 #logo{
@@ -56,7 +62,11 @@ a{
     
     
 }
+/* #b{
+    height:3vh;
+    width:6vw ;
 
+} */
 .navthings{
     margin:0.5vw;
     width:5vw;
@@ -64,11 +74,7 @@ a{
     cursor:pointer;
     font-size:1vw;
 }
-body{
-    padding-top:110px;
-    background-color: #99a5b1;
-    width: 100vw;
-}
+
 #content {
   padding: 1vw;
   min-height: 100vh; 
@@ -131,8 +137,9 @@ body{
     position: relative;
    
 }
-.footersites{
+.footersites li{
     list-style:none;
+    color: #000;
 }
 #footer_logo{
     height:10vw;
@@ -148,135 +155,93 @@ body{
 #foot{
     background-color: #ccd2d8;
 }
+
 #section1{
-    background: linear-gradient(135deg, #001f3f, #004f5f, #007b7f);
-    min-height:fit-content;
-    margin-top: -35px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    padding: 2rem;
-    
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   height: 40vh;
+   margin: 2rem;
 }
-#world_img{
-    height:35rem;
-    width:40rem;
+#Full_Suite{
+    background-color: #99a5b1;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 20px;
+    border: 0;
 }
-#About_ZenTrade{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    /* border: 1px solid white; */
-    width:60vw;
-    height: fit-content;
-
+#main_header{
+    font-size: 4rem;
 }
-#p2l1b1{
+#section2 {
     display: flex;
-    height:fit-content;
-    justify-content: space-evenly;
-    text-align:center;
-    align-items: center;
-    padding:2rem;
-   
+    justify-content: center; 
+    width: 100%;
+    background-color: #007b7f;
+    
     
 }
-#b1h1{
-    font-size: 3rem;
-   
-    padding:2rem;
-    font-family: sans-serif;
-    color:white;
+#content_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
+    gap: 30px;
+    padding: 5rem;
+    width: 100%;
+    max-width: 1600px; 
+}
 
-}
-#b1h2{
-    color: green;
-    
-}
-#p2l2B2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    justify-items: center;
-    align-items: center;
-    /* border:1px solid black; */
-    padding:3rem;
-     background-color:#ccd2d8
-}
-.p2l2b1{
-    display: flex;
-    flex-direction: column;
-    height: 13rem;
-    width: 20rem;
-    /* border:2px solid black; */
-    justify-content:center;
-    /* justify-items: center; */
-    align-items: center;
-    padding: 1rem;
-    text-align: center;
-    background-color: white;
+.card {
+    background-color:white;
+    height: 600px;
+    width: 100%; 
     border-radius: 10px;
+    overflow: hidden; 
+    /* margin-bottom: 2rem; */
 }
-#our-mission{
-    margin-bottom:1rem;
 
+
+@media (max-width: 700px) {
+    #section2 {
+        grid-template-columns: 1fr; 
+    }
 }
-#section2{
-    /* width: 100vw; */
+.card-image{
+    overflow: hidden;
+    height: 250px;
+   
+}
+.card-image img{
+    width: 100%;
+    height: 250px;
+   
+    object-fit: cover;  
+}
+.Learn_more_button{
+    width: 100%;
+    height: 45px;
+    max-width: none;     
+    display: block;       
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    background-color: #001f3d;
+    color: white;
+}
+
+.trading-card{
+    padding:2rem;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    padding:3rem;
+    height:350;
+
     
 }
-#Empowering{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    background-color: aliceblue;
-    height: fit-content;
-    width:70%;
-    padding: 1rem;
-    border-radius: 5px;
-
-}
-#section3{
-    background-color:#00253d;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:3rem;
-}
-#our_Values{
-    color: white;
-    text-align: center;
-    height:fit-content;
-    width:500px;
-    /* border: 1px solid white; */
+.trading-card h1{
     margin-bottom: 2rem;
 }
-#our_Values h1{
-    font-size: 3rem;
-}
-.value_boxes{
-    color: white;
-    text-align:left;
-    height: fit-content;
-    width:15rem;
-  
-}
-#our_values_content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content:space-evenly;
-
-}
-.value_boxes h1{
+.trading-card p{
     margin-bottom: 1rem;
+}
+.list-content{
+    list-style-type: none;
 }
