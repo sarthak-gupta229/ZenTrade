@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     justify-content:space-between;
     align-content: center;
-    background-color:rgba(255, 255, 255, 0.535);
+    background-color:rgba(255, 255, 255, 0.746);
     backdrop-filter: blur(8px);
     align-items: center;
     position: fixed;
@@ -163,4 +163,110 @@ a{
 #foot{
     background-color: #ccd2d8;
 }
+#section1-p4{
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #001f3f;
+margin-top:-50px;
+height: 30vh;
+}
+.transprant-prcing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+.transprant-prcing h1{
+ font-size: 3rem;
+ margin-bottom: 1rem;
+}
+#section2-p4{
+     background: linear-gradient(135deg, #001f3f, #004f5f, #007b7f);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem;
+    
+}
+#boxpricing-Trading{
+    background-color: white;
+    border: 1px solid black;
+    height:55vh;
+   
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid lightgrey;
+    padding:0.5rem;
+}
+.card-content p{
+    color:grey;
+}
+.fixedprice h3{
+    color:#007b7f;
+}
+#card-last-box{
+    border: 0;
+}
+.pricing-boxes{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65vw;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    height: 40vh;
+    flex-wrap: wrap;
+}
+#section3-p4{
+    background: linear-gradient(135deg, #001f3d, #008a7c, #00bda4);
+
+    min-height:30vh;
+    height: fit-content;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+ 
+
+}
+#section3-p4 p {
+    color: white;
+    margin-bottom: 3rem;
+   
+}
+#section3-p4 h1{
+    font-size: 3rem;
+    color: white;
+
+}
+#section3-p4 button{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+button{
+    cursor: pointer;
+}
+#createfree:hover{
+    background-color: #03c3a9;
+    box-shadow: 0 0 10px rgba(3, 195, 169, 0.6);
+    transform: scale(1.05);
+}

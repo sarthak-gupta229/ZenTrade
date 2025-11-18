@@ -320,6 +320,9 @@ input {
 .right-section h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  background: linear-gradient(135deg, #ffffff, #00eaff);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .right-section p {
