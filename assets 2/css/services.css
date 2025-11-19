@@ -365,8 +365,15 @@ a{
 }
 .step-boxes{
     width:400px;
-    
 }
+@media screen and(max-width:540px){
+    .step-boxes{
+    width:fit-content;
+    height: fit-content;
+    }
+}
+    
+
 #section3{
     background-color: whitesmoke;
     height: fit-content;
