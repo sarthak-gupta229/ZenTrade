@@ -478,9 +478,16 @@ button{
   width: 450px;
   height: 280px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   perspective: 1000px;
+}
+#section2_5_p4 #getcard{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1rem;
+    border-radius: 10px;
   
 }
 .card-container img{
@@ -525,5 +532,9 @@ button{
 #section2_5_p4 h1{
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+#getcard{
+    background-color: #4b4b4b;
+    color: white;
 }
 
