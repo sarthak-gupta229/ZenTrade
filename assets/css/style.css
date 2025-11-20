@@ -8,7 +8,9 @@ body{
     /* background-color: #99a5b1; */
     background-color: #99a5b1;
     font-family: "Inter", sans-serif;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .navbar{
     border:0.5px solid black;
