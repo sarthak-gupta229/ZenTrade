@@ -1,8 +1,5 @@
 body {
   padding-top:110px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: ;
  
 
   background: white;
@@ -176,6 +173,7 @@ a{
    padding: 4rem;
    background:linear-gradient(135deg, #001f3f);
    margin-top: -50px;
+   width: 100vw;
 }
 #Full_Suite{
     background-color: #99a5b1;
