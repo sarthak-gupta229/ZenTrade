@@ -24,8 +24,33 @@
           <a href="login.html"><button class="navthings" id="Login">login</button></a>
           <a style="color: white;" href="login.html"><button class="navthings" id="Sign_Up">Sign Up</button></a>
         </div>
+        <!--ham -->
+        <div class="hamburger" onclick="toggleSidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!--ham -->
       </div>
     </header>
+    <!-- added -->
+    <div class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="toggleSidebar()">&times;</button>
+    <ul>
+        <li><a href="index.html" onclick="toggleSidebar()">Home</a></li>
+        <li><a href="about.html" onclick="toggleSidebar()">About</a></li>
+        <li><a href="services.html" onclick="toggleSidebar()">Services</a></li>
+        <li><a href="pricing.html" onclick="toggleSidebar()">Pricing</a></li>
+        <li><a href="support.html" onclick="toggleSidebar()">Support</a></li>
+    </ul>
+    <div class="sidebar-buttons">
+        <a href="login.html"><button id="Login">Login</button></a>
+        <a href="login.html"><button id="Sign_Up">Sign Up</button></a>
+    </div>
+</div>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
 
     <!-- <div id="content"> -->
     <section id="section1">
@@ -149,5 +174,6 @@
       <hr id="footer-line">
       <p id="trademark">© ZenTrade. All rights reserved.</p>
     </footer>
+    <script src="assets/js/main.js"></script> <!--add-->
   </body>
 </html>
