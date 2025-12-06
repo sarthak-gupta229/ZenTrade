@@ -321,7 +321,7 @@ a{
     border: #000;
     background-color: white;
     border:1px solid;
-    height: 50vh;
+    height:fit-content;
     width:45vw;
     border-radius: 10px;
     padding: 1rem;
@@ -362,6 +362,8 @@ a{
 }
 #message{
     min-height:150px;
+    margin: 1rem;
+    max-width: 40vw;
 }
 #send-btn button{
     height: 2.5rem;

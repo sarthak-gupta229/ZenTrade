@@ -297,6 +297,18 @@ body {
   
   background: #f5f7fa;
 }
+.error-message {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  display: block;
+  min-height: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.input-group.error {
+  border-color: #ef4444;
+}
 
 .container {
   display: flex;
