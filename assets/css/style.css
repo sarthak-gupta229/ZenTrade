@@ -158,9 +158,9 @@ a{
 
 .sidebar-close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 30px;
+    top: 15px;
+    right: 13px;
+    font-size: 50px;
     color: white;
     cursor: pointer;
     background: none;
@@ -187,7 +187,7 @@ a{
 }
 
 .sidebar a:hover {
-    background-color: #03c3a9;
+    /* background-color: #03c3a9; */
     transform: translateX(10px);
 }
 
@@ -202,6 +202,12 @@ a{
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+}
+.sidebar .links-sidebar:hover{
+background-color: #03c3a9;
+}
+.sidebar-buttons button:hover{
+    background-color: #03c3a9;
 }
 
 
